@@ -1,0 +1,251 @@
+airport;location_city;location_country;IATA_airport_code;airHelp_score;ponctuality_rating
+Cape Town Airport;Le Cap;South Africa;CPT;8,57;8,6
+Hamad Doha Airport;Doha;Qatar;DOH;8,52;8,2
+King Khaled Riyadh Airport;Riyad;Saudi Arabia;RUH;8,47;8,3
+Brasília–Presidente Juscelino Kubitschek Airport;Brasilia;Brazil;BSB;8,47;8,6
+Muscat Airport;Mascate;Oman;MCT;8,47;8,3
+Tocumen Panama City Airport;Panama City;Panama;PTY;8,42;8,7
+King Shaka International Durban Airport;Durban;South Africa;DUR;8,4;8,9
+Salt Lake City Airport;Salt Lake City;United States;SLC;8,29;8,3
+Bergen Airport;Bergen;Norway;BGO;8,27;8,4
+King Fahd Dammam Airport;Dammam;Saudi Arabia;DMM;8,26;8,1
+King Abdulaziz Jeddah Airport;Jeddah;Saudi Arabia;JED;8,22;8
+Medina Prince Mohammad Bin Abdulaziz Airport;Medina;Saudi Arabia;MED;8,21;7,7
+Belém/Val-de-Cans Airport;Belem;Brazil;BEL;8,21;8,2
+Benito Juarez Mexico City Airport;Mexico City;Mexico;MEX;8,17;8,6
+Chubu Nagoya Airport;Nagoya;Japan;NGO;8,16;8,2
+Bilbao Airport;Bilbao;Spain;BIO;8,16;8,3
+Santos Dumont Rio de Janeiro Airport;Rio de Janeiro;Brazil;SDU;8,14;8,4
+Dubai Airport;Dubai;United Arab Emirates;DXB;8,14;7,6
+Abu Dhabi Airport;Abou Dhabi;United Arab Emirates;AUH;8,11;7,8
+Johannesburg O. R. Tambo Airport;Johannesbourg;South Africa;JNB;8,1;8,1
+Los Angeles Airport;Los Angeles;United States;LAX;8,09;8,1
+Minneapolis – St. Paul Airport;Minneapolis;United States;MSP;8,07;7,9
+Bodø Airport;Bodo;Norway;BOO;8,07;8,2
+Pinto Martins – Fortaleza Airport;Fortaleza;Brazil;FOR;8,05;8,4
+Busan Gimhae Airport;Pusan;South Korea;PUS;8,05;7,9
+Osaka Itami Airport;Osaka;Japan;ITM;8,04;8,2
+Santiago Airport;Santiago;Chile;SCL;8,04;8
+Oslo Gardermoen Airport;Oslo;Norway;OSL;8,04;8,1
+Rio de Janeiro Galeão Airport;Rio de Janeiro;Brazil;GIG;8,03;8,2
+Reykjavik Keflavik Airport;Reykjavik;Iceland;KEF;8,02;8
+Jeju Airport;Jeju;South Korea;CJU;8,02;7,7
+New Chitose Sapporo Airport;Sapporo;Japan;CTS;8;7,8
+Copenhagen Kastrup Airport;Copenhague;Denmark;CPH;8;8
+Singapore Changi Airport;Singapour;Singapore;SIN;7,99;7,4
+Liverpool John Lennon Airport;Liverpool;United Kingdom;LPL;7,99;7,8
+Hartsfield – Jackson Atlanta Airport;Atlanta;United States;ATL;7,97;7,8
+Portland Airport;Portland;United States;PDX;7,96;8,2
+Nashville Airport;Nashville;United States;BNA;7,93;7,8
+Trondheim Vaernes Airport;Trondheim;Norway;TRD;7,93;8,4
+Puerto Vallarta Airport;Puerto Vallarta;Mexico;PVR;7,93;8
+Chicago Midway Airport;Chicago;United States;MDW;7,93;7,9
+Kuwait Airport;Koweit;Kuwait;KWI;7,93;7,9
+Los Cabos Airport;Los Cabos;Mexico;SJD;7,93;8,1
+Tokyo Narita Airport;Tokyo;Japan;NRT;7,92;7,7
+El Dorado Bogotá Airport;Bogota;Colombia;BOG;7,92;7,8
+Curitiba Afonso Pena Airport;Curitiba;Brazil;CWB;7,92;7,9
+Recife/Guararapes – Gilberto Freyre Airport;Recife;Brazil;REC;7,91;8,2
+Austin Bergstrom Airport;Austin;United States;AUS;7,9;7,8
+Houston William P. Hobby Airport;Houston;United States;HOU;7,9;7,8
+Lennart Meri Tallinn Airport;Tallinn;Estonia;TLL;7,9;7,7
+Daniel K. Inouye Honolulu Airport;Honolulu;United States;HNL;7,89;8,5
+Vilnius Airport;Vilnius;Lithuania;VNO;7,89;7,9
+Bahrain Airport;Bahrein;Bahrain;BAH;7,89;8
+Harry Reid Las Vegas Airport;Las Vegas;United States;LAS;7,89;7,8
+Phoenix Sky Harbor Airport;Phoenix;United States;PHX;7,88;8,1
+London City Airport;Londres;United Kingdom;LCY;7,87;7,8
+Lech Wa__sa Gda_sk Airport;Gdansk;Poland;GDN;7,87;7,9
+Gold Coast Airport;Coolangatta;Australia;OOL;7,86;7,7
+Seattle – Tacoma Airport;Seattle;United States;SEA;7,85;7,9
+Washington Dulles Airport;Washington;United States;IAD;7,85;7,9
+Sao Paulo/Guarulhos Airport;Sao Paulo;Brazil;GRU;7,83;8
+Fukuoka Airport;Fukuoka;Japan;FUK;7,83;7,6
+São Paulo Congonhas Airport;Sao Paulo;Brazil;CGH;7,83;8,1
+Adelaide Airport;Adelaide;Australia;ADL;7,83;7,9
+Stockholm Arlanda Airport;Stockholm;Sweden;ARN;7,83;8
+Wellington Airport;Wellington;New Zealand;WLG;7,82;7,7
+Orlando Airport;Orlando;United States;MCO;7,82;7,6
+Seville Airport;Seville;Spain;SVQ;7,78;7,9
+Dallas Love Field Airport;Dallas;United States;DAL;7,78;7,7
+Gothenburg Landvetter Airport;Goteborg;Sweden;GOT;7,77;7,8
+Cancun Airport;Cancun;Mexico;CUN;7,77;7,8
+Florianópolis – Hercílio Luz Airport;Florianopolis;Brazil;FLN;7,76;7,9
+Viracopos Campinas Airport;Campinas;Brazil;VCP;7,76;7,6
+Eindhoven Airport;Eindhoven;Netherlands;EIN;7,76;7,7
+Tokyo Haneda Airport;Tokyo;Japan;HND;7,76;7,7
+Adolfo Suarez Madrid Airport;Madrid;Spain;MAD;7,75;7,7
+Belo Horizonte Tancredo Neves Airport;Belo Horizonte;Brazil;CNF;7,74;7,7
+George Bush Intercontinental Houston Airport;Houston;United States;IAH;7,74;7,7
+San Diego Airport;San Diego;United States;SAN;7,74;7,4
+Alfonso Bonilla Aragón Airport;Cali;Colombia;CLO;7,73;7,7
+Valencia Airport;Valence;Spain;VLC;7,73;7,6
+Miami Airport;Miami;United States;MIA;7,73;7,5
+Thurgood Marshall Baltimore – Washington Airport;Baltimore;United States;BWI;7,73;7,7
+Charlotte Douglas Airport;Charlotte;United States;CLT;7,72;7,6
+John F. Kennedy New York Airport;New York;United States;JFK;7,71;7,6
+San Francisco Airport;San Francisco;United States;SFO;7,71;7,8
+Auckland Airport;Auckland;New Zealand;AKL;7,7;7,5
+Fuerteventura Airport;Puerto del Rosario;Spain;FUE;7,7;7,5
+Vienna Airport;Vienne;Austria;VIE;7,69;7,3
+Denver Airport;Denver;United States;DEN;7,68;7,7
+Chicago O’Hare Airport;Chicago;United States;ORD;7,68;7,6
+Cochin Airport;Kochi;India;COK;7,67;7,2
+Istanbul Havalimani Airport;Istanbul;Turkey;IST;7,67;7,9
+Christchurch Airport;Christchurch;New Zealand;CHC;7,67;7,6
+Frédéric Chopin Warsaw Airport;Varsovie;Poland;WAW;7,67;7,6
+Hong Kong Airport;Hong Kong;Hong Kong;HKG;7,67;7,2
+Logan Boston Airport;Boston;United States;BOS;7,66;7,5
+Tampa Airport;Tampa;United States;TPA;7,65;7,5
+Belfast Airport;Belfast;United Kingdom;BFS;7,64;7,7
+Dusseldorf Airport;Dusseldorf;Germany;DUS;7,64;7,4
+Toulouse Airport;Toulouse;France;TLS;7,64;7,6
+Lyon Saint Exupery Airport;Lyon;France;LYS;7,64;7,4
+Jose Maria Cordova Medellin Airport;Medellin;Colombia;MDE;7,63;7,8
+Brussels Airport;Bruxelles;Belgium;BRU;7,63;7,4
+Tenerife North Airport;Tenerife;Spain;TFN;7,63;7,7
+New York LaGuardia Airport;New York;United States;LGA;7,63;7,7
+Dallas – Fort Worth Airport;Dallas;United States;DFW;7,62;7,3
+Basel – Mulhouse – Freiburg Airport;Bale;Switzerland / Mulhouse, France;BSL;7,62;7,4
+Bangkok Suvarnabhumi Airport;Bangkok;Thailand;BKK;7,62;7,2
+Seoul Gimpo Airport;Seoul;South Korea;GMP;7,61;7,7
+Amsterdam Schiphol Airport;Amsterdam;Netherlands;AMS;7,61;7,3
+Jorge Chavez Lima Airport;Lima;Peru;LIM;7,6;7,7
+Salvador – Deputado Luís Eduardo Magalhães Airport;Salvador;Brazil;SSA;7,6;8,2
+Melbourne Tullamarine Airport;Melbourne;Australia;MEL;7,6;7,5
+Washington Ronald Reagan National Airport;Washington;United States;DCA;7,59;7,4
+Detroit Metropolitan Wayne County Airport;Detroit;United States;DTW;7,59;7,9
+Paris Orly Airport;Paris;France;ORY;7,59;7,7
+Faro Airport;Faro;Portugal;FAO;7,58;7,7
+Helsinki – Vantaa Airport;Helsinki;Finland;HEL;7,58;7,4
+Turin Airport;Turin;Italy;TRN;7,58;7,4
+Dublin Airport;Dublin;Ireland;DUB;7,57;7,5
+Kansai Airport;Osaka;Japan;KIX;7,57;7,4
+Edmonton Airport;Edmonton;Canada;YEG;7,57;7,3
+Malaga – Costa del Sol Airport;Malaga;Spain;AGP;7,56;7,2
+Milan Linate Airport;Milan;Italy;LIN;7,56;7,7
+Alicante – Elche Airport;Alicante;Spain;ALC;7,55;7,3
+Josep Tarradellas Barcelona – El Prat Airport;Barcelone;Spain;BCN;7,55;7,4
+Riga Airport;Riga;Latvia;RIX;7,55;7,4
+Nagasaki Airport;Nagasaki;Japan;NGS;7,54;8
+Luxembourg Airport;Luxembourg;Luxembourg;LUX;7,53;7
+Brisbane Airport;Brisbane;Australia;BNE;7,53;7,4
+Leeds Bradford Airport;Leeds;United Kingdom;LBA;7,52;7,5
+Sydney Kingsford Smith Airport;Sydney;Australia;SYD;7,52;7,6
+Edinburgh Airport;Edimbourg;United Kingdom;EDI;7,52;7,1
+Bordeaux – Merignac Airport;Bordeaux;France;BOD;7,51;7,4
+Berlin Brandenburg Airport;Berlin;Germany;BER;7,51;7,5
+Montreal – Pierre Elliott Trudeau Airport;Montreal;Canada;YUL;7,49;7,1
+Gran Canaria Airport;Las Palmas;Spain;LPA;7,48;7,2
+Naha Okinawa Airport;Okinawa;Japan;OKA;7,48;7,5
+Copernicus Wroc_aw Airport;Wroclaw;Poland;WRO;7,47;7,2
+Kota Kinabalu Airport;Kota Kinabalu;Malaysia;BKI;7,47;6,9
+Kolkata Airport;Kolkata;India;CCU;7,47;7
+Marseille Provence Airport;Marseille;France;MRS;7,46;7,1
+Munich Airport;Munich;Germany;MUC;7,46;7
+Buenos Aires Jorge Newbery Aeroparque Airport;Buenos Aires;Argentina;AEP;7,46;7,3
+Billy Bishop Toronto Airport;Toronto;Canada;YTZ;7,46;6,9
+Rafael Núñez Cartagena Airport;Carthagene;Colombia;CTG;7,45;7,8
+Buenos Aires Ezeiza Airport;Buenos Aires;Argentina;EZE;7,45;7,4
+Nantes Atlantique Airport;Nantes;France;NTE;7,45;7,6
+Glasgow Airport;Glasgow;United Kingdom;GLA;7,45;7,4
+Hanover Airport;Hanovre;Germany;HAJ;7,45;7,4
+Taiwan Taoyuan Airport;Taipei;Taiwan;TPE;7,44;7,3
+Helmut Schmidt Hamburg Airport;Hambourg;Germany;HAM;7,43;7,2
+Tenerife South Airport;Tenerife;Spain;TFS;7,43;7,3
+John Paul II Kraków–Balice Airport;Cracovie;Poland;KRK;7,42;7,4
+Cagliari Elmas Airport;Cagliari;Italy;CAG;7,42;7,1
+Marrakech Menara Airport;Marrakech;Morocco;RAK;7,41;7,4
+Winnipeg Richardson Airport;Winnipeg;Canada;YWG;7,41;7,1
+Philadelphia Airport;Philadelphie;United States;PHL;7,41;7,6
+Rajiv Gandhi Hyderabad Airport;Hyderabad;India;HYD;7,4;7
+Sharjah Airport;Charjah;United Arab Emirates;SHJ;7,4;6,9
+Florence Peretola Airport;Florence;Italy;FLR;7,39;7,2
+Frankfurt Airport;Francfort;Germany;FRA;7,38;7,1
+Geneva Cointrin Airport;Genève;Switzerland;GVA;7,38;7
+Thessaloniki Airport;Thessalonique;Greece;SKG;7,38;7,1
+Fort Lauderdale–Hollywood Airport;Fort Lauderdale;United States;FLL;7,38;7,3
+Punta Cana Airport;Punta Cana;Dominican Republic;PUJ;7,37;7,4
+Newcastle Airport;Newcastle;United Kingdom;NCL;7,36;7
+Zurich Airport;Zurich;Switzerland;ZUR;7,35;6,9
+Prague Václav Havel Airport;Prague;Czech Republic;PRG;7,35;7,2
+Venice Marco Polo Airport;Venise;Italy;VCE;7,35;7,2
+Manohar Goa Airport;Goa;India;GOX;7,34;6,8
+Vancouver Airport;Vancouver;Canada;YVR;7,34;7,1
+Rome Fiumicino Airport;Rome;Italy;FCO;7,33;6,9
+Halifax Stanfield Airport;Halifax;Canada;YHZ;7,32;6,5
+Ottawa Macdonald – Cartier Airport;Ottawa;Canada;YOW;7,32;6,9
+San Juan Luis Munoz Marín Airport;San Juan;Puerto Rico;SJU;7,32;7,5
+London Heathrow Airport;Londres;United Kingdom;LHR;7,31;7,1
+Bandaranaike Colombo Airport;Colombo;Sri Lanka;CMB;7,3;7,3
+Seoul Incheon Airport;Seoul;South Korea;ICN;7,29;6,6
+Jaipur Airport;Jaipur;India;JAI;7,29;6,9
+Nuremberg Airport;Nuremberg;Germany;NUE;7,28;7
+Ankara Esenboga Airport;Ankara;Turkey;ESB;7,28;7,2
+Paris Charles de Gaulle Airport;Paris;France;CDG;7,28;7
+London Luton Airport;Londres;United Kingdom;LTN;7,27;7,2
+Zagreb Airport;Zagreb;Croatia;ZAG;7,27;7,1
+Lanzarote Airport;Lanzarote;Spain;ACE;7,26;7,3
+Newark Liberty Airport;Newark;United States;EWR;7,25;7,2
+Milan Malpensa Airport;Milan;Italy;MXP;7,25;6,9
+Ahmedabad Airport;Ahmedabad;India;AMD;7,25;7,1
+Stuttgart Airport;Stuttgart;Germany;STR;7,24;7,3
+Chennai Airport;Chennai;India;MAA;7,24;7,1
+Kuching Airport;Kuching;Malaysia;KCH;7,24;7,1
+Perth Airport;Perth;Australia;PER;7,23;7,4
+Bologna Guglielmo Marconi Airport;Bologne;Italy;BLQ;7,23;7,2
+Budapest Ferenc Liszt Airport;Budapest;Hungary;BUD;7,23;7
+Calgary Airport;Calgary;Canada;YYC;7,22;6,9
+Athens Eleftherios Venizelos Airport;Athènes;Greece;ATH;7,22;6,7
+Islamabad Airport;Islamabad;Pakistan;ISB;7,21;6,6
+Paris Beauvais Airport;Paris;France;BVA;7,2;7,2
+Cristiano Ronaldo Madeira Airport;Funchal;Portugal;FNC;7,18;7,1
+Toronto Pearson Airport;Toronto;Canada;YYZ;7,15;6,8
+Ibiza Airport;Ibiza;Spain;IBZ;7,14;7,2
+Kuala Lumpur Airport;Kuala Lumpur;Malaysia;KUL;7,13;6,3
+Porto Francisco Sá Carneiro Airport;Porto;Portugal;OPO;7,13;6,9
+Malta Airport;Malte;Malta;MLA;7,12;7
+Bengaluru Kempegowda Airport;Bengaluru;India;BLR;7,11;6,3
+Palma de Mallorca Airport;Palma de Majorque;Spain;PMI;7,11;6,8
+Bristol Airport;Bristol;United Kingdom;BRS;7,1;6,6
+Karol Wojty_a Bari Airport;Bari;Italy;BRI;7,1;7,1
+Nice Côte d’Azur Airport;Nice;France;NCE;7,1;6,5
+Brussels South Charleroi Airport;Charleroi;Belgium;CRL;7,09;7,4
+Cluj - Napoca Airport;Cluj;Romania;CLJ;7,07;7,3
+Birmingham Airport;Birmingham;United Kingdom;BHX;7,05;6,6
+Palermo Falcone–Borsellino Airport;Palerme;Italy;PMO;7,03;7
+Porto Alegre Salgado Filho Airport;Porto Alegre;Brazil;POA;7,03;6,9
+Sofia Airport;Sofia;Bulgaria;SOF;7,01;7
+Denpasar Airport;Bali;Indonesia;DPS;6,99;6,4
+Mohammed V Casablanca Airport;Casablanca;Morocco;CMN;6,99;6,5
+Manchester Airport;Manchester;United Kingdom;MAN;6,97;6,4
+Jinnah Karachi Airport;Karachi;Pakistan;KHI;6,95;6,7
+Sabiha Gokçen Istanbul Airport;Istanbul;Turkey;SAW;6,94;7
+Larnaca Airport;Larnaca;Cyprus;LCA;6,94;6,5
+Pisa Airport;Pise;Italy;PSA;6,93;6,7
+Milan Bergamo Airport;Milan;Italy;BGY;6,92;6,6
+Chhatrapati Shivaji Mumbai Airport;Mumbai;India;BOM;6,91;6,1
+Catania Fontanarossa Airport;Catane;Italy;CTA;6,87;6,9
+Bucharest Henri Coand_ Airport;Bucarest;Romania;OTP;6,85;7,1
+Adnan Menderes Izmir Airport;Izmir;Turkey;ADB;6,85;7,3
+London Stansted Airport;Londres;United Kingdom;STN;6,85;6,5
+Naples Airport;Naples;Italy;NAP;6,84;6,8
+Alejandro Velasco Astete Cusco Airport;Cuzco;Peru;CUZ;6,84;7,1
+Cairo Airport;Le Caire;Egypt;CAI;6,84;6,3
+Cologne/Bonn Airport;Cologne-Bonn;Germany;CGN;6,84;6,4
+London Gatwick Airport;Londres;United Kingdom;LGW;6,81;6,3
+Jomo Kenyatta Nairobi Airport;Nairobi;Kenya;NBO;6,81;6,1
+Tirana Airport;Tirana;Albania;TIA;6,81;6,9
+Nikola Tesla Belgrade Airport;Belgrade;Serbia;BEG;6,8;6,6
+Biju Patnaik Bhubaneswar Airport;Bhubaneswar;India;BBI;6,79;6,3
+Indira Gandhi Delhi Airport;Delhi;India;DEL;6,78;6,1
+Sharm El-Sheikh Airport;Charm el-cheik;Egypt;SSH;6,76;6,4
+N_i Bài International Airport;Hanoi;Vietnam;HAN;6,71;6,4
+Dalaman Airport;Dalaman;Turkey;DLM;6,64;6,1
+Humberto Delgado Lisbon Airport;Lisbonne;Portugal;LIS;6,53;6,1
+Antalya Airport;Antalya;Turkey;AYT;6,52;5,8
+Hurghada Airport;Hurghada;Egypt;HRG;6,42;6,2
+Heraklion Airport;Heraklion;Greece;HER;6,32;6,2
+Ho Chi Minh Airport;Ho-Chi-Minh-Ville;Vietnam;SGN;6,21;6,1
+Rhodes Diagoras Airport;Rhodes;Greece;RHO;6,05;5,8
+Tunis Carthage Airport;Tunis;Tunisia;TUN;5,73;5,4
