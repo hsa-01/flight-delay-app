@@ -11,16 +11,15 @@ import numpy as np
 
 def weather_dep_temp(ds_flight_date, ds_departure_plan, ds_departure_airport_lat, ds_departure_airport_long):
     """
-    Extract temperature in °C from Open-Meteo API
-    
-    Args:
-        ds_flight_date (str): Date au format dd/mm/yy
-        ds_departure_plan (str): Heure au format hh:mm
+    PURPOSE : 
+        Extract temperature of departure airport in °C from Open-Meteo API
+    ARGS:
+        ds_flight_date (str): Target flight date (dd/mm/yy)
+        ds_departure_plan (str): Target flight departure scheduled (hh:mm)
         ds_departure_airport_lat (float): Latitude
         ds_departure_long (float): Longitude
-    
-    Returns:
-        float: Température en °C ou None si erreur
+    RETURNS:
+        float: Température en °C ou None if error
     """
     try:
         # VALIDATION : Of input data
@@ -93,16 +92,15 @@ def weather_dep_temp(ds_flight_date, ds_departure_plan, ds_departure_airport_lat
 
 def weather_dep_vis(ds_flight_date, ds_departure_plan, ds_departure_airport_lat, ds_departure_airport_long):
     """
-    Extract visibility in km from Open-meteo API
-    
-    Args:
-        ds_flight_date (str): Date au format dd/mm/yy
-        ds_departure_plan (str): Heure au format hh:mm
+    PURPOSE : 
+        Extract visibility of departure airport in km from Open-Meteo API
+    ARGS:
+        ds_flight_date (str): Target flight date (dd/mm/yy)
+        ds_departure_plan (str): Target flight departure scheduled (hh:mm)
         ds_departure_airport_lat (float): Latitude
         ds_departure_long (float): Longitude
-    
-    Returns:
-        float: Visibilité en km ou None si erreur
+    RETURNS:
+        float: Visibility in km or None if error
     """
     try:
         # VALIDATION : Of input data
@@ -179,16 +177,15 @@ def weather_dep_vis(ds_flight_date, ds_departure_plan, ds_departure_airport_lat,
 
 def weather_dep_wind(ds_flight_date, ds_departure_plan, ds_departure_airport_lat, ds_departure_airport_long):
     """
-    Extract wind in km/h from Open-meteo API
-    
-    Args:
-        ds_flight_date (str): Date au format dd/mm/yy
-        ds_departure_plan (str): Heure au format hh:mm
+    PURPOSE : 
+        Extract wind of departure airport in km/h from Open-Meteo API
+    ARGS:
+        ds_flight_date (str): Target flight date (dd/mm/yy)
+        ds_departure_plan (str): Target flight departure scheduled (hh:mm)
         ds_departure_airport_lat (float): Latitude
         ds_departure_long (float): Longitude
-    
-    Returns:
-        float: Vitesse du vent en km/h ou None si erreur
+    RETURNS:
+        float: Wind in km/h or None if error
     """
     try:
         # VALIDATION : Of input data
@@ -261,16 +258,15 @@ def weather_dep_wind(ds_flight_date, ds_departure_plan, ds_departure_airport_lat
 
 def weather_dep_rain(ds_flight_date, ds_departure_plan, ds_departure_airport_lat, ds_departure_airport_long):
     """
-    Extract rain level in mm/hour from Open-meteo API
-    
-    Args:
-        ds_flight_date (str): Date au format dd/mm/yy
-        ds_departure_plan (str): Heure au format hh:mm
+    PURPOSE : 
+        Extract rain level of departure airport in mm/hour from Open-Meteo API
+    ARGS:
+        ds_flight_date (str): Target flight date (dd/mm/yy)
+        ds_departure_plan (str): Target flight departure scheduled (hh:mm)
         ds_departure_airport_lat (float): Latitude
         ds_departure_long (float): Longitude
-    
-    Returns:
-        float: Niveau de précipitations en mm ou None si erreur
+    RETURNS:
+        float: Rain level in mm or None if error
     """
     try:
         # VALIDATION : Of input data
