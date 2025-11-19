@@ -41,7 +41,7 @@ This file is main.py of the ETL pipeline. Its purpose is to collect and consolid
 '''
 
 #=====================================================================
-# CONFIGURATION SCRAPPING
+# CONFIGURATION SCRAPING
 #=====================================================================
 
 logging.basicConfig(level=logging.INFO)
@@ -49,7 +49,7 @@ logger = logging.getLogger(__name__)
 
 
 #=====================================================================
-# SCRAPPING FUNCTIONS
+# SCRAPING FUNCTIONS
 #=====================================================================
 
 class SimpleFlightScraper:
@@ -151,7 +151,7 @@ class SimpleFlightScraper:
                 'tag': element.name
             }
             
-            # Recherche d'attributs data-*
+            # Search for attribute data-*
             for attr, value in element.attrs.items():
                 if attr.startswith('data-'):
                     element_data[attr] = value
@@ -165,10 +165,10 @@ class SimpleFlightScraper:
         Try to extract JSON data from scripts
         """
         try:
-            # Recherche de patterns JSON courants
+            # Search for JSON pattern
             import re
             
-            # Pattern pour les objets JSON
+            # JSON pattern
             json_patterns = [
                 r'window\.__INITIAL_STATE__\s*=\s*({.*?});',
                 r'window\.flightData\s*=\s*({.*?});',
@@ -199,11 +199,11 @@ class SimpleFlightScraper:
         if isinstance(json_data, list):
             return json_data
         elif isinstance(json_data, dict):
-            # Recherche de listes dans le dictionnaire
+            # Search for list in dict
             for key, value in json_data.items():
                 if isinstance(value, list) and value:
                     return value
-            # Si pas de liste, retourner le dict comme une seule ligne
+            # If no list, return dict as one line
             return [json_data]
         return None
     
@@ -213,9 +213,7 @@ class SimpleFlightScraper:
 
 
 def main():
-    """
-    Main to test different methods
-    """
+    """Main to test different methods"""
 
     
     # CSV LOADING : Flight code list 
