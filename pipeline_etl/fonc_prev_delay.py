@@ -12,18 +12,27 @@ import requests
 
 def prev_delay(ds_flight_aircraft,ds_flight_date,ds_departure_airport_code,ds_flight_code,ds_flight_duration):
     '''
-    This file is a function called by the main.py file. Its purpose is to calculate the delay in minutes of the previous flight (than the one selected).
-    It is composed by a pipeline block to collect data of the airfract which operated the selected flight, to reach its history whose the previous flight.
-    Features overview : 
-    -Extract : 
+    PURPOSE : 
+        This file is a function called by the main.py file. Its purpose is to calculate the delay in minutes of the previous flight (than the one selected).
+        It is composed by a pipeline block to collect data of the airfract which operated the selected flight, to reach its history whose the previous flight.
+        Features overview : 
+        -Extract : 
         * Main flight data => From external source (scraping) : Flightradar24
-    -Transform :
+        -Transform :
         * Data filtering
         * Columns renaming
         * Colums creation
-    - Calculation :
+        - Calculation :
         * Mask : Application of filter to select the previous flight, than the one targeted one
         * Calculation : Application of a function to calculate the delay of the previous flight
+    ARGS:
+        ds_flight_aircraft (str) : Airfract registration code
+        ds_flight_date (str) : Target flight date
+        ds_departure_airport_code (str) : IATA departure airport code 
+        ds_flight_code (str) : IATA flight code
+        ds_flight_duration (str) : Target flight duration (hh:mm)
+    RETURNS:
+        float: Previous flight delay in minutes     
     '''
 
     try:
