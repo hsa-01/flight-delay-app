@@ -3,7 +3,7 @@ import numpy as np
 def airport_rating(df_data_prov, airport_rating_csv):
     '''
     PURPOSE : 
-        This file is a function called by the main.py file. Its purpose is to enrich dataset with coordinates of the departure and arrival airports from internal source
+        This file is a function called by the fonc_get_flight_data.py file. Its purpose is to enrich dataset with coordinates of the departure and arrival airports from internal source
         (csv from OurAirports)
     ARGS:
         df_data_prov (df) : Data frame temporary of the pipeline ETL
