@@ -15,7 +15,7 @@ import requests
 def prev_delay(ds_flight_aircraft,ds_flight_date,ds_departure_airport_code,ds_flight_code):
     '''
     PURPOSE : 
-        This file is a function called by the main.py file. Its purpose is to calculate the delay in minutes of the previous flight (than the one selected).
+        This file is a function called by the fonc_get_flight_data.py file. Its purpose is to calculate the delay in minutes of the previous flight (than the one selected).
         It is composed by a pipeline block to collect data of the airfract which operated the selected flight, to reach its history whose the previous flight.
         Features overview : 
         -Extract : 
