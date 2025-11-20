@@ -1,0 +1,110 @@
+airline;IATA_airline_code;airHelp_score;ponctuality_rating
+Brussels Airlines;SN;8,12;7,8
+Qatar Airways;QR;8,11;8,2
+United Airlines;UA;8,04;7,8
+American Airlines;AA;8,04;7,5
+Play;OG;7,89;9
+Austrian Airlines;OS;7,89;7,6
+LOT Polish Airlines;LO;7,84;7,6
+Air Arabia;G9;7,58;6,3
+Widerøe;WF;7,55;8,6
+Air Serbia;JU;7,53;5,9
+Etihad Airways;EY;7,45;7,5
+Eurowings;EW;7,41;6,9
+Garuda Indonesia;GA;7,39;8,7
+EVA Airways;BR;7,36;7
+Iberia;IB;7,35;8,4
+Qantas;QF;7,33;7,8
+Delta Air Lines;DL;7,31;8,1
+SAS Scandinavian Airlines;SK;7,29;8
+Oman Air;WY;7,22;9
+Kuwait Airways;KU;7,2;8,8
+Croatia Airlines;OU;7,18;7
+Air France;AF;7,17;7,1
+LATAM Airlines;LA;7,16;8,3
+KLM Royal Dutch Airlines;KL;7,16;7,3
+Azerbaijan Airlines;J2;7,09;7,8
+KM Malta Airlines;KM;7,06;8
+Air Dolomiti;EN;7;5,7
+Aeromexico;AM;6,98;8,5
+TAP Air Portugal;TP;6,97;5,9
+Virgin Atlantic;VS;6,94;7,3
+Lufthansa;LH;6,94;6,5
+Aer Lingus;EI;6,93;8,1
+British Airways;BA;6,89;6,5
+Luxair;LG;6,88;6,9
+Saudia;SV;6,87;8,4
+Air Transat;TS;6,82;7,4
+Singapore Airlines;SQ;6,79;8,3
+Norwegian;DY;6,74;7,8
+Kenya Airways;KQ;6,71;6,3
+Thai Airways International;TG;6,7;7,8
+Japan Airlines (JAL);JL;6,69;8
+Finnair;AY;6,67;7,5
+Avianca;AV;6,66;8,3
+Discover Airlines;4Y;6,64;6,1
+Westjet;WS;6,59;6,8
+Transavia;HV;6,56;7,3
+Icelandair;FI;6,53;8,2
+Air Corsica;XK;6,51;7,7
+All Nippon Airways;NH;6,5;8,1
+BRA Braathens Regional Airlines;DC;6,48;8,5
+Vueling Airlines;VY;6,48;8,2
+China Airlines;CI;6,45;7
+Wizz Air;W6;6,34;7
+Ryanair;FR;6,33;6,9
+Emirates;EK;6,33;7,3
+Turkish Airlines;TK;6,32;7,6
+Royal Jordanian;RJ;6,28;8,1
+Royal Air Maroc;AT;6,25;6,6
+Philippine Airlines;PR;6,24;7,4
+Bangkok Airways;PG;6,18;8,1
+Air India;AI;6,15;6,5
+Swiss International Air Lines;LX;6,14;6,5
+Cathay Pacific;CX;6,04;7,4
+Edelweiss Air;WK;6,03;7,2
+ITA Airways;AZ;5,96;6,8
+SunExpress;XQ;5,87;6,3
+Condor;DE;5,87;6,1
+Air Austral;UU;5,83;6
+Malaysia Airlines;MH;5,79;6,9
+airBaltic;BT;5,73;6,7
+Volotea;V7;5,71;7,6
+German Airways;2G;5,71;7,6
+flydubai;FZ;5,63;6,8
+TUI;TOM;5,6;5,6
+Copa Airlines;CM;5,52;8,7
+Virgin Australia;VA;5,48;7,2
+Binter;NT;5,46;7,4
+Gol;G3;5,44;8,4
+Aegean Airlines;A3;5,42;6,9
+Air Europa;UX;5,41;7,8
+Gulf Air;GF;5,34;7,8
+easyJet;U2;5,32;6,6
+Azul Airlines;AD;5,32;7,7
+Korean Air;KE;5,32;7,4
+Olympic Air;OA;5,31;6,9
+Asiana Airlines;OZ;5,23;7,7
+Eastern Airways;ER;5,18;6,6
+Alaska Airlines;AS;5,18;7,7
+Air Caraïbes;TX;5,18;5
+JetBlue;B6;5,18;7,4
+Air Canada;AC;5,13;6,8
+flynas;XY;5,11;8
+Vietnam Airlines;VN;5,07;7,2
+AirAsia;AK;5,05;7,1
+SATA Air Açores;S4;4,97;6,7
+Egyptair;MS;4,95;4,8
+Jet2.com;LS;4,94;6,8
+Middle East Airlines;ME;4,88;6,9
+Ajet;1X;4,88;6,4
+SKY express;GQ;4,86;6,9
+Air Mauritius;MK;4,84;6,7
+TAROM;RO;4,82;6,9
+IndiGo;6E;4,8;6,6
+Pegasus Airlines;PC;4,73;6,7
+El Al Israel Airlines;LY;4,6;5,7
+Bulgaria Air;FB;4,59;6,2
+Nouvelair;BJ;4,48;5,8
+Buzz;RR;4,45;6,2
+Tunisair;TU;3,63;4,7
