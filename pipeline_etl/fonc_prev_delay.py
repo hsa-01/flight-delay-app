@@ -85,7 +85,7 @@ def prev_delay(ds_flight_aircraft,ds_flight_date,ds_departure_airport_code,ds_fl
                     # Search for JSON data
                     scripts = soup.find_all('script')
                     for script in scripts:
-                        if script.string and ('flight' in script.string.lower() or 'tu628' in script.string.lower()):
+                        if script.string and ('flight' in script.string.lower() or 'af01' in script.string.lower()):
                             json_data = self._extract_json_from_script(script.string)
                             if json_data:
                                 return json_data
@@ -295,6 +295,7 @@ def prev_delay(ds_flight_aircraft,ds_flight_date,ds_departure_airport_code,ds_fl
 
 
                     def prev_delay_sub(dx_flight_date, dx_departure_plan, dx_departure_real, dx_flight_duration, dx_arrival_plan):
+                        '''Sub fonction to calculate the previous delay based on data processed before'''
                         # CHECK : Checking of missing data
                         if pd.isna(dx_flight_date) or pd.isna(dx_departure_plan) or pd.isna(dx_departure_real) \
                             or pd.isna(dx_flight_duration) or pd.isna(dx_arrival_plan):
