@@ -3,7 +3,7 @@ import math
 def flight_duration(lat1, lon1, lat2, lon2):
     """
     PURPOSE : 
-        Calculation to estimate a flight duration.
+        This file is a function called by the fonc_get_flight_data.py file. Calculation to estimate a flight duration.
         When the user select a flight, the flight duration data is not available (because the plane did not took-off yet). 
         This fonction ensures to give an estimation of the flight duration to complete the input data necessary for the API to give its prediction.
         For this, the distance before departure and arrival is considered, with the following assumptions : 
