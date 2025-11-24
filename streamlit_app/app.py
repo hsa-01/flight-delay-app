@@ -6,7 +6,7 @@ import time
 # ==============================================================
 # API CONFIGURATION 
 # ==============================================================
-API_URL = "http://127.0.0.1:8000/predict-flight"
+API_URL = "https://flight-delay-app.onrender.com"
 
 st.set_page_config(page_title="Prédiction Retard Vol", page_icon="✈️", layout="centered")
 
