@@ -6,3 +6,4 @@ openmeteo_requests==1.7.2
 numpy==2.3.2
 beautifulsoup4==4.13.4
 requests==2.32.3
+uvicorn==0.38.0
