@@ -5,7 +5,7 @@
 **✈️ A PROPOS**
 -------------------------------------------------------------------------------------------------------
 - Objectif : Application de prédiction de retard de vol
-- Réalisation : Pipeline ETL (dataset), Data Warehousing (traitement dataset), Machine Learning (entrainement), API, Interface et Déploiement
+- Réalisation : Pipeline ETL (dataset), data Warehousing (traitement dataset), machine learning (entrainement), API, interface et déploiement
 - Source de données : Flightradar24, OpenMeteo, AirHelp, OurAirports
 - Résulat : Ecart moyen +/- 13min 
 - Démo : https://flight-delay-app-q3zgpvmvvvrmvdwbyd3fyw.streamlit.app/
@@ -17,8 +17,8 @@
   > Scraping : BeautifulSoup / Selenium
   > Requests : API
 - Cloud : AWS
-  > Déploiement pipeline ETL sur EC2
-  > Stockage résultats et autres données sur S3
+  * Déploiement pipeline ETL sur EC2
+  * Stockage résultats et autres données sur S3
 - Data Warehousing : Snowflake (SQL)
 - Machine Learning : Scikit-learn (Random Forest)
 - API : FastAPI
@@ -83,40 +83,41 @@ v                                     |                             |
 2️⃣ DATA WAREHOUSING :
 - Objectif : Nettoyer, stocker et exploiter les données dans un environnement Data Warehouse
 - Réalisations :
-  > Paramétrage : Création de la BDD, tables et stage (Import des données depuis AWS S3)
-  > Ingestion : Chargement du dataset brut
-  > Processing : Suppression champs vides et valeurs aberrantes, normalisation
-  > Jointures : Enrichissement du dataset avec les notes de ponctualité des compagnies et aéroports de départ/arrivée (Source : AirHelp / Type : csv)
+  * Paramétrage : Création de la BDD, tables et stage (Import des données depuis AWS S3)
+  * Ingestion : Chargement du dataset brut
+  * Processing : Suppression champs vides et valeurs aberrantes, normalisation
+  * Jointures : Enrichissement du dataset avec les notes de ponctualité des compagnies et aéroports de départ/arrivée (Source : AirHelp / Type : csv)
 
 
 3️⃣ MACHINE LEARNING :
 - Objectif : Entrainer le dataset nettoyé
 - Réalisations : 
-  > Définition de la variable cible : Retard final en minutes
-  > Définition des variables explicatives : Horaires, météo, notes poncutalité aéroports et compagnies etc
-  > Encodage des variables catégorielles (non numériques)
-  > Split train/test
+  * Définition de la variable cible : Retard final en minutes
+  * Définition des variables explicatives : Horaires, météo, notes poncutalité aéroports et compagnies etc
+  * Définition du type d'entrainement (Random forest) et parametres 
+  * Encodage des variables catégorielles (non numériques)
+  * Split train/test
 
 
 4️⃣ API :
 - Objectif : Developper une API permettant d'estimer un retard grace .joblib (modele entrainé)
 - Réalisations : 
-  > Saisie : Récuperation des input 
-  > Pipeline interne : Récuperation des données du vol selectionné en input. Même données et mêmes méthodes utilisées par le pipeline ETL du dataset.   
-  > Endpoints : Les principaux endpoints sont GET /health (Statut API) et GET /predict-flight (Estimation retard en min)
+  * Saisie : Récuperation des input 
+  * Pipeline interne : Récuperation des données du vol selectionné en input. Même données et mêmes méthodes utilisées par le pipeline ETL du dataset.   
+  * Endpoints : Les principaux endpoints sont GET /health (Statut API) et GET /predict-flight (Estimation retard en min)
 
 
 5️⃣  INTERFACE :
 - Objectif : Developper une interface permettant recuperer les input utilisateurs et de retourner le résultat (connecté à l'API)
 - Réalisation : 
-  > Interface : Developpement du front-end de l'application pour déploiement sur Streamlit
+  * Interface : Developpement du front-end de l'application pour déploiement sur Streamlit
 
 
 6️⃣ DÉPLOIEMENT :
 - Objectif : Déployer l'application en ligne
 - Réalisations : 
-  > API : Déploiement sur Render
-  > Interface : Dévelppement front-end (barre de saisie, indicateurs),connexion à l'API et déploiement sur Streamlit
+  * API : Déploiement sur Render
+  * Interface : Dévelppement front-end (barre de saisie, indicateurs),connexion à l'API et déploiement sur Streamlit
 
 
 
