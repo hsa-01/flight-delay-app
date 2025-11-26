@@ -167,8 +167,8 @@ col_a, col_b, col_c = st.columns(3)
 with col_a:
     st.markdown(
         "<div style='text-align:center;'>"
-        "<h4>Précision moyenne</h4>"
-        "<p style='font-size:24px;'>± 13,43min</p>"
+        "##### Précision moyenne"
+        "<p style='font-size:30px;'>± 13,43min</p>"
         "</div>", 
         unsafe_allow_html=True
     )
@@ -176,8 +176,8 @@ with col_a:
 with col_b:
     st.markdown(
         "<div style='text-align:center;'>"
-        "<h4>Vols analysés</h4>"
-        "<p style='font-size:24px;'>18,9K+</p>"
+        "#### Vols analysés"
+        "<p style='font-size:30px;'>18,9K+</p>"
         "</div>", 
         unsafe_allow_html=True
     )
@@ -185,8 +185,8 @@ with col_b:
 with col_c:
     st.markdown(
         "<div style='text-align:center;'>"
-        "<h4>Facteur n°1 des retards</h4>"
-        "<p style='font-size:24px;'>Retard précédent</p>"
+        "##### Facteur n°1 des retards"
+        "<p style='font-size:30px;'>Retard précédent</p>"
         "</div>", 
         unsafe_allow_html=True
     )
