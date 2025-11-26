@@ -82,9 +82,22 @@ st.markdown(
 )
 
 
-# === TITRE PRINCIPAL ===
-st.title("✈️ Prédiction du retard d'un vol")
-st.markdown("Saisis un numéro de vol et une date pour obtenir une estimation du retard.")
+# ==============================================================
+# TITRE 
+# ==============================================================
+st.title("✈️ PRÉDICTION")
+st.markdown("Saisir un numéro de vol et la date du jour pour obtenir une estimation du retard.<br>Vous pouvez trouver un numéro valide en suivant les instructions décrites dans la seconde page.", unsafe_allow_html=True)
+st.markdown(
+    """
+    <div style="font-size:0.80rem; color:#000000; background-color:#E0F7FA; padding:10px; border-radius:5px;">
+        💡 <strong>Note : </strong><br>
+        - Date : L’estimation ne fonctionne qu’avec les vols du jour uniquement<br>
+        - Format output : Le délai est indiqué en minutes, avec des valeurs positives pour les retards et négatives pour les vols en avance<br>
+        - Résultat : Les prédictions sont des estimations basées sur des données historiques. Les retards réels peuvent varier en fonction de facteurs imprévus
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 st.markdown("---")
 
 # ==============================================================
