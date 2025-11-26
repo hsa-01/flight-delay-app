@@ -91,6 +91,7 @@ st.markdown("---")
 # SOURCE DE DONNÉES 
 # ==============================================================
 st.markdown("<h3 style='text-align:center;'>🔢 Sources de données</h3>", unsafe_allow_html=True)
+st.markdown("Les sources de données qui ont permis de constituer le dataset (d’entraînement) sont les suivantes :", unsafe_allow_html=True)
 
 col1, col2 = st.columns(2)
 
@@ -161,7 +162,7 @@ st.markdown("<h3 style='text-align:center;'>📊 Données clés</h3>", unsafe_al
 col_a, col_b, col_c = st.columns(3)
 
 with col_a:
-    st.metric(label="Précision moyenne", value="+/- 13,43min")
+    st.metric(label="Précision moyenne", value="± 13,43min")
 
 with col_b:
     st.metric(label="Vols analysés", value="18,9K+")
