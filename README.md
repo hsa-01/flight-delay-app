@@ -37,7 +37,7 @@ v
 |                             |   -> OurAirports : Données GPS des aéroports (csv)                             
 +-----------------------------+
 v
-Dataset brut (sur AWS S3)      
+Dataset brut (sur AWS S3)  : Disponible dans le dossier data_warehousing (Flight-delay_dataset_pre_traitement.csv)  
 v     
 +-----------------------------+
 | DATA WAREHOUSE              |   <- AirHelp : Note de ponctualité des aeroports (csv)
@@ -45,7 +45,7 @@ v
 |                             |
 +-----------------------------+
 v
-Dataset nettoyé
+Dataset nettoyé : Disponible dans le dossier data_warehousing (Flight-delay_dataset_post_traitement.csv)
 v
 +-----------------------------+
 | MACHINE LEARNING            |
