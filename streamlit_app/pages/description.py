@@ -157,17 +157,16 @@ st.markdown("---")
 # ==============================================================
 # DONNÉES CLÉS 
 # ==============================================================
-# Titre centré
+
 st.markdown("<h3 style='text-align:center;'>📊 Données clés</h3>", unsafe_allow_html=True)
 
-# Colonnes
 col_a, col_b, col_c = st.columns(3)
 
-# Centrer le contenu de chaque colonne avec HTML + CSS
+
 with col_a:
     st.markdown(
         "<div style='text-align:center;'>"
-        "##### Précision moyenne"
+        "<h5>Précision moyenne</h5>"
         "<p style='font-size:30px;'>± 13,43min</p>"
         "</div>", 
         unsafe_allow_html=True
@@ -176,7 +175,7 @@ with col_a:
 with col_b:
     st.markdown(
         "<div style='text-align:center;'>"
-        "#### Vols analysés"
+        "<h5>Vols analysés</h5>"
         "<p style='font-size:30px;'>18,9K+</p>"
         "</div>", 
         unsafe_allow_html=True
@@ -185,7 +184,7 @@ with col_b:
 with col_c:
     st.markdown(
         "<div style='text-align:center;'>"
-        "##### Facteur n°1 des retards"
+        "<h5>Facteur n°1 des retards</h5>"
         "<p style='font-size:30px;'>Retard précédent</p>"
         "</div>", 
         unsafe_allow_html=True
